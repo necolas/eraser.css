@@ -1,10 +1,10 @@
-/*! eraser.css 2012-01-20T00:06 UTC - http://github.com/necolas/eraser.css */
+/*! eraser.css 2012-01-20T12:53 UTC - http://github.com/necolas/eraser.css */
 
 /*
  * TODO?:
  * :after, :before, :first-letter, :first-line
  * any other critical proprietary properties (within reason)
-*/
+ */
 
 .x-widget,
 
@@ -295,6 +295,11 @@
     display: list-item !important;
 }
 
+.x-widget blockquote:before,
+.x-widget blockquote:after,
+.x-widget q:before,
+.x-widget q:after,
+.x-widget [hidden],
 .x-widget input[type="hidden"] {
     display: none !important;
 }
@@ -341,14 +346,7 @@
 
 .x-widget blockquote,
 .x-widget q  {
-    quotes: none !important; /* HTML5 */
-}
-
-.x-widget blockquote:before,
-.x-widget blockquote:after,
-.x-widget q:before,
-.x-widget q:after {
-    display: none !important;
+    quotes: none !important;
 }
 
 .x-widget input,
