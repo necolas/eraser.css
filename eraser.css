@@ -1,0 +1,362 @@
+/*! eraser.css 2012-01-20T00:06 UTC - http://github.com/necolas/eraser.css */
+
+/*
+ * TODO?:
+ * :after, :before, :first-letter, :first-line
+ * any other critical proprietary properties (within reason)
+*/
+
+.x-widget,
+
+/* Type */
+.x-widget h1,
+.x-widget h2,
+.x-widget h3,
+.x-widget h4,
+.x-widget h5,
+.x-widget h6,
+.x-widget a,
+.x-widget abbr,
+.x-widget address,
+.x-widget b,
+.x-widget blockquote,
+.x-widget cite,
+.x-widget code,
+.x-widget del,
+.x-widget dfn,
+.x-widget div,
+.x-widget em,
+.x-widget hr,
+.x-widget i,
+.x-widget ins,
+.x-widget kbd,
+.x-widget p,
+.x-widget pre,
+.x-widget q,
+.x-widget s,
+.x-widget samp,
+.x-widget small,
+.x-widget span,
+.x-widget strong,
+.x-widget sub,
+.x-widget sup,
+.x-widget u,
+.x-widget var,
+
+/* Lists */
+.x-widget ul,
+.x-widget ol,
+.x-widget li,
+.x-widget dl,
+.x-widget dt,
+.x-widget dd,
+
+/* Tables */
+.x-widget table,
+.x-widget thead,
+.x-widget tbody,
+.x-widget tfoot,
+.x-widget caption,
+.x-widget tr,
+.x-widget th,
+.x-widget td,
+
+/* Forms */
+.x-widget form,
+.x-widget legend,
+.x-widget fieldset,
+.x-widget select,
+.x-widget option,
+.x-widget input,
+.x-widget textarea,
+.x-widget button,
+.x-widget label,
+
+/* Embeds */
+.x-widget embed,
+.x-widget iframe,
+.x-widget img,
+.x-widget object,
+
+/* HTML5 */
+.x-widget article,
+.x-widget audio,
+.x-widget aside,
+.x-widget bdi,
+.x-widget bdo,
+.x-widget canvas,
+.x-widget details,
+.x-widget figure,
+.x-widget figcaption,
+.x-widget footer,
+.x-widget header,
+.x-widget hgroup,
+.x-widget mark,
+.x-widget menu,
+.x-widget nav,
+.x-widget section,
+.x-widget summary,
+.x-widget time,
+.x-widget video {
+    background: transparent !important;
+    -webkit-background-size: auto auto !important;
+    -moz-background-size: auto auto !important;
+    background-size: auto auto !important;
+    border: 0 !important;
+    -webkit-border-image: none !important;
+    -moz-border-image: none !important;
+    -o-border-image: none !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -moz-border-top-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    bottom: auto !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    clear: none !important;
+    clip: auto !important;
+    color: black !important;
+    counter-increment: none !important;
+    counter-reset: none !important;
+    cursor: auto !important;
+    direction: ltr !important;
+    display: inline !important;
+    -ms-filter: !important;
+    filter: !important;
+    float: none !important;
+    font: normal normal normal 16px/1 sans-serif !important;
+    height: auto !important;
+    left: auto !important;
+    letter-spacing: normal !important;
+    list-style: none !important;
+    list-style-image: none !important; /* IE8: for lists in 'nav' */
+    margin: 0 !important;
+    max-height: none !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    -webkit-opacity: 1 !important;
+    -moz-opacity: 1 !important;
+    opacity: 1 !important;
+    outline: 0 !important;
+    outline-offset: 0 !important;
+    -moz-outline-radius: 0 !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    page: auto!important;
+    position: static !important;
+    right: auto !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    text-indent: 0 !important;
+    -ms-text-overflow: clip !important;
+    -o-text-overflow: clip !important;
+    text-overflow: clip !important;
+    text-shadow: none !important;
+    -webkit-text-size-adjust: 100% !important;
+    -ms-text-size-adjust: 100% !important;
+    text-transform: none !important;
+    -webkit-transform: none !important;
+    -webkit-transform-origin: 50% 50% !important;
+    -moz-transform: none !important;
+    -moz-transform-origin: 50% 50% !important;
+    -ms-transform: none !important;
+    -ms-transform-origin: 50% 50% !important;
+    -o-transform: none !important;
+    -o-transform-origin: 50% 50% !important;
+    transform: none !important;
+    transform-origin: none !important;
+    -webkit-transition: all 0s !important;
+    -moz-transition: all 0s !important;
+    -ms-transition: all 0s !important;
+    -o-transition: all 0s !important;
+    top: auto !important;
+    unicode-bidi: normal !important;
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    vertical-align: baseline !important;
+    visibility: visible !important;
+    white-space: normal !important;
+    width: auto !important;
+    word-break: normal !important;
+    word-spacing: normal !important;
+    word-wrap: normal !important;
+    z-index: auto !important;
+}
+
+
+/* =============================================================================
+   Inline-block elements
+   ========================================================================== */
+
+.x-widget audio,
+.x-widget canvas,
+.x-widget video {
+    display: inline-block !important;
+    *display: inline !important;
+    *zoom: 1 !important;
+}
+
+.x-widget audio:not([controls]) {
+    display: none !important;
+}
+
+
+/* =============================================================================
+   Block elements
+   ========================================================================== */
+
+.x-widget,
+.x-widget h1,
+.x-widget h2,
+.x-widget h3,
+.x-widget h4,
+.x-widget h5,
+.x-widget h6,
+.x-widget address,
+.x-widget blockquote,
+.x-widget caption,
+.x-widget div,
+.x-widget hr,
+.x-widget p,
+.x-widget pre,
+.x-widget dl,
+.x-widget dt,
+.x-widget dd,
+.x-widget ul,
+.x-widget ol,
+.x-widget form,
+.x-widget fieldset,
+.x-widget textarea,
+
+/* HTML5 */
+.x-widget article,
+.x-widget aside,
+.x-widget details,
+.x-widget figure,
+.x-widget figcaption,
+.x-widget footer,
+.x-widget header,
+.x-widget hgroup,
+.x-widget menu,
+.x-widget nav,
+.x-widget section,
+.x-widget summary {
+    display: block !important; 
+}
+
+
+/* =============================================================================
+   Table elements
+   ========================================================================== */
+
+.x-widget table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+    display: table !important;
+    table-layout: auto !important;
+}
+
+.x-widget thead {
+    display: table-header-group !important;
+}
+
+.x-widget tbody {
+    display: table-row-group !important;
+}
+
+.x-widget tfoot {
+    display: table-footer-group !important;
+}
+
+.x-widget tr {
+    display: table-row !important;
+}
+
+.x-widget th,
+.x-widget td {
+    display: table-cell !important;
+}
+
+
+/* =============================================================================
+   Misc
+   ========================================================================== */
+
+.x-widget li {	
+    display: list-item !important;
+}
+
+.x-widget input[type="hidden"] {
+    display: none !important;
+}
+
+.x-widget a {
+    cursor: pointer !important;
+}
+
+.x-widget button,
+.x-widget input[type="button"], 
+.x-widget input[type="submit"] {
+    cursor: pointer !important;
+}
+
+.x-widget a:hover {
+    text-decoration: underline !important;
+}
+
+.x-widget button,
+.x-widget input[type="submit"] {
+    text-align: center !important;
+}
+
+.x-widget abbr[title] {
+    border-bottom: 1px dotted !important;
+}
+
+.x-widget del {
+    text-decoration: line-through !important;
+}
+
+.x-widget em {
+    font-style: italic !important;
+}
+
+.x-widget ins {
+    background-color: #ff9 !important;
+    color: black !important;
+}
+
+.x-widget strong {
+    font-weight: bold !important;
+}
+
+.x-widget blockquote,
+.x-widget q  {
+    quotes: none !important; /* HTML5 */
+}
+
+.x-widget blockquote:before,
+.x-widget blockquote:after,
+.x-widget q:before,
+.x-widget q:after {
+    display: none !important;
+}
+
+.x-widget input,
+.x-widget select,
+.x-widget textarea {
+    border: 1px solid #ccc !important;
+}
+
+.x-widget [dir="rtl"] {
+    direction: rtl !important;
+}
