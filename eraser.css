@@ -250,7 +250,7 @@
 .x-widget nav,
 .x-widget section,
 .x-widget summary {
-    display: block !important; 
+    display: block !important;
 }
 
 
@@ -291,7 +291,7 @@
    Misc
    ========================================================================== */
 
-.x-widget li {	
+.x-widget li {
     display: list-item !important;
 }
 
@@ -309,7 +309,7 @@
 }
 
 .x-widget button,
-.x-widget input[type="button"], 
+.x-widget input[type="button"],
 .x-widget input[type="submit"] {
     cursor: pointer !important;
 }
