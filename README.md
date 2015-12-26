@@ -1,5 +1,7 @@
 # eraser.css
 
+![unmaintained](http://img.shields.io/badge/status-unmaintained-red.png)
+
 Eraser.css is a CSS file that uses brute force to reset all critical properties
 for elements within an embedded widget.
 
